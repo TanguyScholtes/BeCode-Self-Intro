@@ -13,14 +13,14 @@ Commençons par quelques informations bateau mais nécessaires…
 - **Nom :** Scholtes
 - **Prénom :** Tanguy
 - **Date de naissance :** 24 Octobre 1992
-- **Âge :** <span id="age"></span> ans
+- **Âge :** 25 ans
 - **Nationalité :** Belge
 - **Taille :** 185cm
 - **Préférence manuelle :** Droitier
 - **Groupe sanguin :** A+
 - **Adresse :** Rue Piretfontaine 50-1, 4140 Sprimont BELGIQUE
 
-<div id="map" width="100%" height="400px"></div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2535.7561908769962!2d5.638381915655981!3d50.53870597948756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c058a193697e0f%3A0xbc9dadb1a643ab3!2sRue+Piretfontaine+50%2C+4140+Sprimont!5e0!3m2!1sfr!2sbe!4v1539768562801" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 ## Expériences professionnelles
 - **De février à mai 2014 :** Stage de 15 semaines au [LUCID](http://www.lucid.ulg.ac.be/www/welcome/), laboratoire de recherche rattaché à la [Faculté des Sciences Appliquées](https://www.facsa.uliege.be/cms/c_3112656/fr/portail-facsa) de l'[Université de Liège ( ULg )](https://www.uliege.be/cms/c_8699436/fr/portail-uliege).
@@ -207,42 +207,3 @@ Et un peu de Javascript. Ici, un bout de code personnel qui fait défiler doucem
 ```
 
 <p align="center">Created with <img src="http://tanguyscholtes.be/jdr-characters/img/pixel-heart.png" alt="love" width="16px"> by <a href="http://tanguyscholtes.be/">Tanguy Scholtes</a>, 2018.</p>
-
-<script>
-    ( function () {
-        "use strict";
-        var age = document.getElementById( 'age' );
-        var today = Date.now();
-        var birthday = new Date(1992 , 10, 24);
-
-        function getAgeAt( date, birthday ) {
-            var diff = date - birthday.getTime();
-            var ageDate = new Date( diff );
-            return Math.abs( ageDate.getUTCFullYear() - 1970 );
-        }
-
-        getAgeAt( today, birthday );
-    } ) ();
-</script>
-<script>
-    function initMap() {
-        var home = {
-            lat: -25.344,
-            lng: 131.036
-        };
-        var map = new google.maps.Map( document.getElementById( 'map' ),
-        {
-            zoom: 4,
-            center: home
-        } );
-        var marker = new google.maps.Marker( {
-            position: home,
-            map: map
-        } );
-    }
-</script>
-<script
-    async
-    defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeZAbIsINT2EDS7stxwZak4At0vMPn9Rk &callback=initMap">
-</script>
