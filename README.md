@@ -1,5 +1,7 @@
 # <p align="center">Tanguy Scholtes<br><span style="font-size:16px;">Junior Web Developper at [BeCode](https://becode.org/)</span></p>
 
+<img src="http://tanguyscholtes.be/img/Tanguy_Scholtes.png" alt="Tanguy Scholtes" width="200px" style="display: block; margin: 1em auto; border-radius: 1em; border: 5px solid gray; box-shadow: 5px 5px 15px rgba(0,0,0, 0.4);">
+
 - [Informations générales](#informations-générales)
 - [Expériences professionnelles](#expériences-professionnelles)
 - [Formations et Études](#formations-et-études)
@@ -71,7 +73,7 @@ Je vous laisse seuls juges de ce qui suit…
         </tr>
         <tr class="table-row">
             <th class="table-header">Mon rêve de bonheur ?</th>
-            <td class="table-data">Pouvoir vivre de ce que j'aime faire.</td>
+            <td class="table-data">Pouvoir faire ce que j'aime et en vivre.</td>
         </tr>
         <tr class="table-row">
             <th class="table-header">Quel serait mon plus grand malheur ?</th>
@@ -79,11 +81,11 @@ Je vous laisse seuls juges de ce qui suit…
         </tr>
         <tr class="table-row">
             <th class="table-header">Ce que je voudrais être ?</th>
-            <td class="table-data">Mince.</td>
+            <td class="table-data">Mince, ce serait un bon début.</td>
         </tr>
         <tr class="table-row">
             <th class="table-header">Le pays où je désirerais vivre ?</th>
-            <td class="table-data">Les États-Unis d'Amérique.</td>
+            <td class="table-data">Je suis très bien au pays du chocolat et des frites !</td>
         </tr>
         <tr class="table-row">
             <th class="table-header">La couleur que je préfère ?</th>
