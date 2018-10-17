@@ -1,6 +1,6 @@
 # <p align="center">Tanguy Scholtes<br><span style="font-size:16px;">Junior Web Developper at [BeCode](https://becode.org/)</span></p>
 
-<p style="text-align: center">
+<p align="center">
     <img
         src="http://tanguyscholtes.be/img/Tanguy_Scholtes.png"
         alt="Tanguy Scholtes"
