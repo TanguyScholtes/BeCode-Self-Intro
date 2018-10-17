@@ -1,6 +1,17 @@
+<style>
+    .myself{
+        width: 200px;
+        display: block;
+        margin: 1em auto;
+        border-radius: 1em;
+        border: 5px solid gray;
+        box-shadow: 5px 5px 15px rgba(0,0,0, 0.4);
+    }
+</style>
+
 # <p align="center">Tanguy Scholtes<br><span style="font-size:16px;">Junior Web Developper at [BeCode](https://becode.org/)</span></p>
 
-<img src="http://tanguyscholtes.be/img/Tanguy_Scholtes.png" alt="Tanguy Scholtes" width="200px" style="width: 200px; display: block; margin: 1em auto; border-radius: 1em; border: 5px solid gray; box-shadow: 5px 5px 15px rgba(0,0,0, 0.4);" />
+<img class="myself" src="http://tanguyscholtes.be/img/Tanguy_Scholtes.png" alt="Tanguy Scholtes" />
 
 - [Informations générales](#informations-générales)
 - [Expériences professionnelles](#expériences-professionnelles)
