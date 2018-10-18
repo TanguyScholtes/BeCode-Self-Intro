@@ -4,7 +4,7 @@
     <img
         src="http://tanguyscholtes.be/img/Tanguy_Scholtes.png"
         alt="Tanguy Scholtes"
-        width="200px";
+        width="200px"
         style="border-radius: 1em;
         border: 5px solid gray;
         box-shadow: 5px 5px 15px rgba(0,0,0, 0.4);"
